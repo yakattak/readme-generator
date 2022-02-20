@@ -58,7 +58,7 @@ function generateMarkdown(data) {
   
   # ${data.title}
 
-  ##Description
+  ## Description
   ${data.about}
 
   * [Description](#description)
@@ -70,25 +70,24 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ##Languages
+  ## Languages
   ${data.languages}
 
-  ##Installation
+  ## Installation
   ${data.install}
 
-  ##Usage
+  ## Usage
   ${data.Usage}
 
-  ##License
   ${renderLicenseSection(data.license)}
 
-  ##Contributing
+  ## Contributing
   ${data.collabName}
 
-  ##Tests
+  ## Tests
   ${data.testing}
 
-  ##Questions
+  ## Questions
 
   Please contact me using the following links:
   [Github](https://github.com/${data.github})
