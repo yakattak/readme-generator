@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
-const { writeFile } = require('fs');
+//const { writeFile } = require('fs');
 const inquirer = require('inquirer');
-//const generateMarkdown = require('./utils/generateMarkdown.js');
-//const {writefile, copyFile} = require('./utils/generateFile.js');
+const generateMarkdown = require('./utils/generateMarkdown.js');
+const {writeFile, copyFile} = require('./utils/generateFile.js');
 
 
 // TODO: Create an array of questions for user input
@@ -13,10 +13,10 @@ const promptUser = () => {
     return inquirer.prompt([
         {
             type: 'input',
-            name: 'name',
+            name: 'title',
             message: 'What is your project name? (Required)',
-            validate: nameInput => {
-              if (nameInput) {
+            validate: titleInput => {
+              if (titleInput) {
                 return true;
               } else {
                 console.log('Please enter your project name!');
@@ -102,7 +102,7 @@ const promptUser = () => {
         {
             type: 'list',
             name: 'license',
-            choices: ['MIT', 'Apache 2.0', 'Creative Commons 1.0', 'GPLv3', 'WTFPL']
+            choices: ['MIT', 'Apache 2.0', 'Creative Commons 1.0', 'GPLv3', 'WTFPL', 'no license']
         },
         {
             type: 'confirm',
@@ -149,7 +149,7 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {};
 
-// TODO: Create a function to initialize app
+// initialize app
 function init() {
     promptUser()
     .then(data => {
