@@ -3,47 +3,39 @@
   # randompass
 
   ## Description
-  it is arandom
+  It is a random password generator created using js and html
 
   * [Description](#description)
   * [Languages](#languages)
   * [Installation](#installation)
   * [Usage](#usage)
-  
-  * [License](#license)
-    
+   
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## Languages
-  
+  JavaScript,HTML,CSS
 
   ## Installation
-  adsfasfasdfasd
+  undefined
 
   ## Usage
   undefined
 
-  
-  ## [License](#table-of-contents)
-  The application is covered under the following license:
-  
-    [MIT](https://choosealicense.com/licenses/MIT)
-      
-    
+   
 
   ## Contributing
-  bob
+  undefined
 
   ## Tests
-  boblow
+  undefined
 
   ## Questions
 
   Please contact me using the following links:
   [Github](https://github.com/yakattak)
 
-  [Email: stevec](mailto:stevec)
+  [Email: stevecalebrese@gmail.com](mailto:stevecalebrese@gmail.com)
 
 
